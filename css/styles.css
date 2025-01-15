@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+
+    width: 396px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid blue;
+
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+    padding-top: 24px;
+    padding-bottom: 22px;
+
+}
+
+.header-logo-part {
+    color: #2e2f42;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+
+}
+
+header-menu {
+    width: 32px;
+    height: 22px;
+}
