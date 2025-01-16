@@ -9,16 +9,47 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio 2025</title>
   </head>
   <body>
     <header class="container header">
-      <a class="header-logo" href="/"
-        >Web<span class="header-logo-part">studio</span>
-      </a>
+      <nav class="header-menu">
+        <a class="header-logo" href="/"
+          >Web<span class="header-logo-part">studio</span>
+        </a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="/">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="header-adres">
+        <li class="header-adres-item">
+          <a class="header-adres-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-adres-item">
+          <a class="header-adres-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+
       <button type="button" class="header-btn">
-        <svg class="header-menu">
+        <svg class="mobile-menu">
           <use
             class="header-menu-icon"
             href="./images/icons.svg#icon-menu"
@@ -26,5 +57,10 @@
         </svg>
       </button>
     </header>
+    <!-- 
+    <section class="container hero">
+      <h1>Effective Solutions For Your Business</h1>
+      <button type="button" class="hero-btn">Order Service</button>
+    </section> -->
   </body>
 </html>
