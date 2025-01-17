@@ -206,6 +206,54 @@ svg {
     background-color: #404bbf;
 }
 
+/* --------------Direction--------------- */
+
+
+
+.direction {
+    outline: 1px solid blue;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+
+
+.direct-item {
+    max-width: 396px;
+}
+
+.direct-item:not(:last-child) {
+    padding-bottom: 72px;
+}
+
+.direct-wrap {
+    display: none;
+}
+
+.direct-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(#2e2f42);
+
+
+    margin-bottom: 8px;
+}
+
+.direct-text {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
 
 /* -------------------------------------TABLET------------------------------ */
 
@@ -290,6 +338,28 @@ svg {
     .hero-btn {
         margin-top: 36px;
     }
+
+    /* --------------Direction--------------- */
+
+
+
+    .direct-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+
+    }
+
+    .direct-item {
+        max-width: 356px;
+
+    }
+
+    .direct-item:not(:last-child) {
+        padding-bottom: 0;
+    }
+
 
 }
 
