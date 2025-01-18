@@ -48,7 +48,7 @@
         </li>
       </ul>
 
-      <button type="button" class="header-btn">
+      <button type="button" class="header-btn" data-menu-open>
         <svg class="mobile-menu">
           <use
             class="header-menu-icon"
@@ -56,6 +56,72 @@
           ></use>
         </svg>
       </button>
+
+      <!-- Mobile Menu -->
+      <div class="mobile is-hidden" data-menu>
+        <div>
+          <button class="mobile-close" data-menu-close type="button">X</button>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/">Studio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <ul class="mobile-adress-list">
+            <li class="mobile-adres-item">
+              <a class="mobile-adres-link-tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-adres-item">
+              <a class="mobile-adres-link-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobile-soc-list">
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href="/">
+                <svg width="24" height="24">
+                  <use href="/images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href="/">
+                <svg width="24" height="24">
+                  <use href="/images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href="/">
+                <svg width="24" height="24">
+                  <use href="/images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href="/">
+                <svg width="24" height="24">
+                  <use href="/images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <section class="container hero">
@@ -152,5 +218,7 @@
         </li>
       </ul>
     </section>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
