@@ -422,4 +422,57 @@ svg {
     .hero-btn {
         margin-top: 48px;
     }
+
+    /* --------------Direction--------------- */
+
+    .direction {
+
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .direct-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 24px;
+
+    }
+
+    .direct-item {
+        max-width: 265px;
+
+
+    }
+
+    .direct-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        background-color: #f4f4fd;
+    }
+
+    .direct-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+
+
+        margin-top: 8px;
+
+    }
+
+    .direct-text {
+        font-weight: 400;
+
+    }
+
+
+
 }
