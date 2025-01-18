@@ -252,7 +252,10 @@ svg {
     color: #434455;
 }
 
-
+/* -------------Work------------ */
+.work {
+    display: none;
+}
 
 
 /* -------------------------------------TABLET------------------------------ */
@@ -473,6 +476,39 @@ svg {
 
     }
 
+    /* ----------------Work---------------- */
 
+    .work {
+        outline: 1px solid blue;
+        display: block;
+        padding-bottom: 120px;
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+
+        padding-bottom: 72px;
+    }
+
+    .work-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .work-item {
+        border: 1px solid #e7e9fc;
+    }
+
+    .work-img {
+        display: block;
+    }
 
 }
